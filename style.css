@@ -1,0 +1,72 @@
+html, body, .container {
+    height: 99%; /*not 100% so it keeps the <a> from running off the page when user cant scroll */
+}
+
+body {
+    background-color: #2D2D2D;
+    color: #55C3BE;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden; /* Stops user being able to scroll */
+}
+
+.container { /* goes around the full webpage */
+    display: table;
+    width: 99%;
+    
+}
+
+.centeralign {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bottomright {
+    display: table-footer-group;
+    text-align: right;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+       -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(200, 76, 86); 
+    text-align: right;
+    
+     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+
+}
+
+a:hover {
+    font-weight: bolder;
+    color: rgb(242, 106, 105);
+    transition: 0.3s;
+}
+
+.redheart {
+    color: #832d2d;
+}
