@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head> content taken from my uni portfolio as this will be displayed there -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<meta name="Author" content="Paige Boyd">
+    <meta name="description" content="Paige Boyd is a 19 year old Interactive Multimedia Design student with a passion for clean, modern design and the web.">
+    <meta name="keywords" content="IMD, Degree, Interactive, Multimedia, Design, Jordanstown, Undergraduate, Paige Boyd, Interactive Multimedia Design, UUJ, uuj imd, imd jordanstown, uuimd, designer, quotes, daily quote, javascript, array">
+
+    <title>Designer Inspiration | Paige</title>
+    
+    <!-- **MY CSS** -->
+    <link href="style.css" rel="stylesheet">
+    
+		<!-- Google Fonts -->    
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+    
+</head>
+    
+    <body>
+     <div class="container">   
+        
+        <script>
+            //selects a random item from the array below
+       			// Cards are the quotes
+        var selectCard = [
+            "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated. <br /> - Paul Rand ",
+            "Everything is designed. Few things are designed well. <br /> - Brian Reed",
+            "If you can design one thing, you can design everything. <br /> - Massimo Vignelli",
+            "Thinking about design is hard, but not thinking about it can be disastrous. <br /> - Ralph Caplan",
+            "Don’t worry about people stealing your design work. Worry about the day they stop. <br /> – Jeffrey Zeldman",
+            "Good design is obvious. Great design is transparent. <br /> – Joe Sparano",
+            "I am always doing that which I can not do, in order that I may learn how to do it. <br /> – Pablo Picasso",
+            "Good design is making something intelligible and memorable. Great design is making something memorable and meaningful. <br /> - Dieter Rams",
+            "Design is so simple, that is why it is so complicated. <br /> - Paul Rand",
+            "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away. <br /> - Antoine de Saint-Exupery",
+            "A common mistake that people make when trying to design something completely foolproof, is to underestimate the ingenuity of complete fools. <br /> - Douglas Adams",
+            "Learn the rules like a pro, so you can break them like an artist. <br /> - Pablo Picasso",
+            "If you're not prepared to be wrong, you'll never come up with anything original. <br /> - Sir Ken Robinson",
+            "Show your work, but more importantly, show your worth. <br /> - James Victore",
+            "Perfect typography is certainly the most elusive of all arts. Sculpture in stone alone comes near it in obstinacy. <br /> - Jan Tschichold",
+            "Simplicity is about subtracting the obvious and adding the meaningful. <br /> - John Maeda",
+            "Sometimes you can draw more inspiration from the people who don't believe in you, than the ones who do. <br /> - William Childs",
+            "Art is not what you see, but what you make others see. <br /> - Edgar Degas",
+            "Students: if you are unsure, you will learn; if you are sure, you won't. <br /> - A. Marionettti",
+            "The work you do while you procrastinate is probably the work you should be doing for the rest of your life. <br /> - Jessica Hische",
+            "Do the work. The process is everything. If you cheat, you compromise your transformation and come out unchanged- still an asshole. <br />- James Victore",
+            "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep. <br />- Scott Adams",
+            "Do more of the stuff you like to do and less of the stuff you don't like to do. <br />- Stefan Sagmeister",
+            "An essential aspect of creativity is not being afraid to fail. <br />- Edwin Land",
+            "The details are not the details. They make the design. <br />- Charles Eames",
+            "Good design is honest. <br />- Dieter Rams",
+            "Make design your life... and life, your design. <br />- Charles Eames",
+            //"",
+        ];
+            
+        var todaysCard = selectCard[Math.floor(Math.random() * selectCard.length)]; //means amount of items can be changed without affecting math
+        document.write('<div class="centeralign"><h1>' + todaysCard + '</h1></div>'); //this will display the quote on the screen
+            
+           
+
+            
+            </script>
+        
+        <a class="bottomright" href="http://scm.ulster.ac.uk/~B00664007"><span class="redheart">  &#10084;   </span> Made by Paige Boyd</a><!-- &#10084; is html code for a heart -->
+           
+        </div> <!-- closes the container div -->
+        </body>
+
+</html>
